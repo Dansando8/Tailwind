@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page SEO</title>
+    <link rel="stylesheet" href="../dist/output.css">
+  </head>
+  <body class="bg-gray-100">
+
+    <section class="bg-[url('../ressources/stylish-mesh-bg.jpg')] relative ">
+      
+      <nav class="fixed top-0 z-20 bg-gray-50 p-4 w-full grid grid-cols-none shadow-md md:max-w-7xl md:grid-cols-menu md:shadow-none md:relative md:mx-auto md:bg-transparent">
+        
+        <div class="flex justify-between items-center md:justify-center">
+          <a href="#homepage">
+            <img 
+              src="../ressources/RocketLogo.svg" 
+              alt="logo"
+              class="w-12">
+          </a>
+
+          <button class="icon-toggle bg-white rounded-md p-2 ring-1 ring-black ring-opacity-20 md:hidden">
+            <img src="../ressources/menu.svg" alt="menu" class="h-6 w-6">
+          </button>
+        
+        </div>
+          <ul class="toggle-menu hidden px-1 pt-6 bg-gray-50 flex flex-col md:flex md:bg-transparent md:pt-0 md:flex-row md:space-x-10 md:w-auto md:items-center md:justify-center">
+            
+            <li class="py-2 text-center border-t border-gray-200 md:border-none">
+              <a href="#homepage" class="font-medium text-lg text-zinc-800 hover:text-gray-900" >Homepage</a>
+            </li>
+
+            <li class="py-2 text-center border-t border-gray-200 md:border-0">
+              <a href="#services" class="font-medium text-lg text-zinc-800 hover:text-gray-900" >Services</a>
+            </li>
+            
+            <li class="py-2 text-center border-t border-gray-200 md:border-0">
+              <a href="#our-prices" class="font-medium text-lg text-zinc-800 hover:text-gray-900" >Our prices</a>
+            </li>
+            
+            <li class="py-2 text-center border-t border-gray-200 md:border-0">
+              <a href="#contact" class="font-medium text-lg text-zinc-800 hover:text-gray-900" >Contact</a>
+            </li>
+          
+          </ul>
+
+          <div class="toggle-menu hidden flex justify-center items-center mt-6 md:mt-0 md:justify-end md:flex">
+            <a href="#login" class="shadow-md px-6 py-2 border font-medium first-letter rounded-md text-indigo-600 bg-white hover:bg-gray-50 text-center w-40">Log in</a>
+          </div>
+        
+    </nav>
+
+    <!-- Home Page -->
+    <div id="homepage" class="px-4 text-center pb-56 pt-40 md:pt-20  sm:pb-80">
+      <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md-text-6xl">
+        <span class="block xl:inline">LAUNCH YOUR</span>
+        <span class="block text-blue-600 xl:inline">ONLINE BUSINESS</span>
+      </h1>
+      <p class="mt03 max-w-sm mx-auto text-gray-700 sm:text-lg ms:mt-5 md:text-xl md:max-w-2xl lg:max-w-3xl">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quasi omnis eveniet yeah ouin ouin illo!
+      </p>
+      <div class="mt-5 max-w-md mx-auto flex justify-center items-center flex-col space-y-5 sm:space-y-0 sm:flex-row md:mt-8">
+        <a href="#" class="min-w-[250px] rounded-md shadow flex items-center justify-center mr-3 px-8 py-3 text-sm font-medium text-white bg-blue-600 sm:text-base md:min-w-fit md:py-4 md:text-lg md:px-10">
+          Start 🚀
+        </a>
+         <a href="#" class="min-w-[250px] rounded-md shadow flex items-center justify-center mr-3 px-8 py-3 text-sm font-medium text-gray-800 bg-white sm:text-base md:min-w-fit md:py-4 md:text-lg md:px-10">
+          Demo 🕹
+        </a>
+      
+      </div>
+    </div>
+  
+  <iv class="absolute bottom-4 left-1/2 -translate-x-1/2 md:bottom-10">
+    <a href="#services" class="animate-bounce bg-white p-2 w-12 h-12 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center sm:w-16 sm:h-16">
+      <svg class="w-6 h-6 text-violet-500 sm:w-8 sm:h-8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+        <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+      </svg>
+    </a>
+  </iv>
+
+
+    </section>
+    <script src="../src/app.js"></script>
+  </body>
+</html>
